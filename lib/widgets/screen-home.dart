@@ -8,6 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
+        //set background color 
         child: Container(
           decoration:const  BoxDecoration(
             gradient: LinearGradient(
@@ -29,7 +30,7 @@ class HomeScreen extends StatelessWidget {
               return Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                const   SizedBox(height: 20,),
+                const   SizedBox(height: 21,),
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 50), // Add padding here
                     decoration: BoxDecoration(
