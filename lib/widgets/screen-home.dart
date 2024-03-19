@@ -1,11 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:health_app_2/add_labortries.dart/adding_labortary.dart';
 import 'package:health_app_2/widgets/grid_items.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key});
 
+ 
  @override
   Widget build(BuildContext context) {
+
+ void add_labortries(){
+    Navigator.push(context, MaterialPageRoute(builder: (context) => AddLabortry(),));
+  }
+
+
     return Scaffold(
       body: SingleChildScrollView(
         //set background color 
@@ -51,7 +59,7 @@ class HomeScreen extends StatelessWidget {
                     crossAxisCount: constraints.maxWidth ~/ 150,
                     children: [
                       // Add your grid view items here
-                      GridItem(imageAsset: "assets/images/add_labortries.jpeg", itemName: "Add Labortries", onTap: (){Navigator.pop(context);}),
+                      GridItem(imageAsset: "assets/images/add_labortries.jpeg", itemName: "Add Labortries", onTap: (){add_labortries();}),
                       GridItem(imageAsset: "assets/images/add_labortries.jpeg", itemName: "TEST IN PROGRESS", onTap: (){}),
                       GridItem(imageAsset: "assets/images/add_labortries.jpeg", itemName: "COMPLETED TEST", onTap: (){}),
                       GridItem(imageAsset: "assets/images/add_labortries.jpeg", itemName: "DATA STATS", onTap: (){}),
