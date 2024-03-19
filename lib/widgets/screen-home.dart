@@ -44,7 +44,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                const    SizedBox(height: 40,),
 
-               
+               //works like the list view but i have stop it using  the   physics: NeverScrollableScrollPhysics(),
                   GridView.count(
                     shrinkWrap: true,
                     physics: NeverScrollableScrollPhysics(), // Disable GridView scrolling
