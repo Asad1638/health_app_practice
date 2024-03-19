@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(appBar: AppBar(title: Text("H o m e"),titleSpacing: 20,backgroundColor: Colors.black26,),
       body: SingleChildScrollView(
         //set background color
         child: Container(

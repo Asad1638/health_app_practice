@@ -64,9 +64,10 @@ class _LaboratoryWidgetState extends State<LaboratoryWidget> {
                     laboratoryName = value;
                   },
                   decoration:const InputDecoration(
-                    hintText: 'Enter Laboratory Name',
-                    hintStyle: TextStyle(color: Colors.white),
+                    labelText: 'Enter Laboratory Name',
+                    labelStyle: TextStyle(color: Colors.white),
                   ),
+                  style: TextStyle(color: Colors.white),
                 ),
                const  SizedBox(height: 20),
                 const Text(
@@ -78,9 +79,9 @@ class _LaboratoryWidgetState extends State<LaboratoryWidget> {
                     laboratoryAddress = value;
                   },
                   decoration: const InputDecoration(
-                    hintText: 'Enter Laboratory Address',
-                    hintStyle: TextStyle(color: Colors.white),
-                  ),
+                    labelText: 'Enter Laboratory Address',
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),style: TextStyle(color: Colors.white),
                 ),
                const  SizedBox(height: 20),
                 ElevatedButton(
