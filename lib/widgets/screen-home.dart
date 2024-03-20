@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:health_app_2/open_test/open_test.dart';
 
 import 'package:health_app_2/widgets/grid_items.dart';
 
-import '../add_labortries.dart/adding_labortary.dart';
+import '../add_labortary/adding_labortary.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key});
@@ -73,7 +74,13 @@ class HomeScreen extends StatelessWidget {
                       GridItem(
                           imageAsset: "assets/images/add_labortries.jpeg",
                           itemName: "TEST IN PROGRESS",
-                          onTap: () {}),
+                          onTap: () {
+                               Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => GlassMorphicUI(),
+                                ));
+                          }),
                       GridItem(
                           imageAsset: "assets/images/add_labortries.jpeg",
                           itemName: "COMPLETED TEST",
