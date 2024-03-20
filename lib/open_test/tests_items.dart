@@ -11,7 +11,7 @@ class TestList extends StatelessWidget {
       const    Padding(
           padding: EdgeInsets.symmetric(horizontal: 16),
           child: Text(
-            'List of Tests:',
+            'List of Open Tests:',
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,

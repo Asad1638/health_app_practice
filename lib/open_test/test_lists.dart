@@ -24,9 +24,10 @@ class ListTileWidget extends StatelessWidget {
         margin: EdgeInsets.symmetric(vertical: 8, horizontal: 16),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
-          boxShadow: [
+          boxShadow: const [
             BoxShadow(
-              color: Colors.grey.withOpacity(0.5),
+              // color: Colors.grey.withOpacity(0.5),
+              color: Colors.white10,
               spreadRadius: 5,
               blurRadius: 7,
               offset: Offset(0, 3),
