@@ -54,13 +54,14 @@ class GlassMorphicUI extends StatelessWidget {
                       ),
                     ),
                  const    Positioned(
-                      bottom: 16,
-                      left: 16,
+                      bottom: 1,
+                      left: 15,
                       child: Text(
                         'My Labortry name ',
                         style: TextStyle(
                           color: Colors.black,
-                          fontSize: 24,
+                          
+                          fontSize: 18,
                           fontWeight: FontWeight.bold,
                         ),
                       ),

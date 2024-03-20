@@ -41,7 +41,7 @@ class ListTileWidget extends StatelessWidget {
               shape: BoxShape.circle,
               image: DecorationImage(
                 image: AssetImage(leadingImage),
-                fit: BoxFit.cover,
+                fit: BoxFit.fill,
               ),
             ),
           ),
@@ -57,7 +57,7 @@ class ListTileWidget extends StatelessWidget {
               shape: BoxShape.circle,
               image: DecorationImage(
                 image: AssetImage(trailingImage),
-                fit: BoxFit.cover,
+                fit: BoxFit.fill,
               ),
             ),
           ),

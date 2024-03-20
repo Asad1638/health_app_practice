@@ -8,14 +8,14 @@ class TestList extends StatelessWidget {
     return ListView(
       children: [
         SizedBox(height: 20),
-        Padding(
+      const    Padding(
           padding: EdgeInsets.symmetric(horizontal: 16),
           child: Text(
             'List of Tests:',
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,
-              color: Colors.white,
+              color: Colors.black,
             ),
           ),
         ),
@@ -23,8 +23,8 @@ class TestList extends StatelessWidget {
         ListTileWidget(
           title: 'Test 1',
           subtitle: 'Test description 1',
-          leadingImage: 'assets/leading_image_1.jpg',
-          trailingImage: 'assets/trailing_image_1.jpg',
+          leadingImage: 'assets/images/blood_test.jpeg',
+          trailingImage: 'assets/images/setho_scope.jpeg',
           onTap: () {
             print('Test 1 tapped');
           },
