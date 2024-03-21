@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:health_app_2/close_test.dart/close_test_ui.dart';
 import 'package:health_app_2/open_test/open_test.dart';
 
 import 'package:health_app_2/widgets/grid_items.dart';
@@ -78,13 +79,17 @@ class HomeScreen extends StatelessWidget {
                                Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => GlassMorphicUI(),
+                                  builder: (context) => OpenTestUi(),
                                 ));
                           }),
                       GridItem(
                           imageAsset: "assets/images/add_labortries.jpeg",
                           itemName: "COMPLETED TEST",
-                          onTap: () {}),
+                          onTap: () {  Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => CloseTestUi(),
+                                ));}),
                       GridItem(
                           imageAsset: "assets/images/add_labortries.jpeg",
                           itemName: "DATA STATS",

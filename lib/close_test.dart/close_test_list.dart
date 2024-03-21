@@ -1,14 +1,14 @@
 
 import 'package:flutter/material.dart';
 
-class OpenTestListTile extends StatelessWidget {
+class CloseListTile extends StatelessWidget {
   final String title;
   final String subtitle;
   final String leadingImage;
   final String trailingImage;
   final VoidCallback onTap;
 
-  const OpenTestListTile({
+  const CloseListTile({
     required this.title,
     required this.subtitle,
     required this.leadingImage,

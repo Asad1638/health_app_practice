@@ -1,12 +1,11 @@
+
+
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:health_app_2/open_test/test_lists.dart';
-import 'package:health_app_2/open_test/tests_items.dart';
+import 'package:health_app_2/close_test.dart/close_test_items.dart';
 
-
-
-class OpenTestUi extends StatelessWidget {
+class CloseTestUi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,7 +47,7 @@ class OpenTestUi extends StatelessWidget {
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(20),
                         child: Image.asset(
-                          'assets/images/pending_test.jpeg',
+                          'assets/images/close_test.jpeg',
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -70,7 +69,7 @@ class OpenTestUi extends StatelessWidget {
                 ),
               ),
               Expanded(
-                child: OpenTestItems(),
+                child: CloseTestItems(),
               ),
             ],
           ),
