@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:health_app_2/open_test/test_lists.dart';
+
 import 'package:health_app_2/open_test/tests_items.dart';
 
 

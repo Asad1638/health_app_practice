@@ -19,7 +19,7 @@ class LoginScreen extends StatelessWidget {
             decoration: const BoxDecoration(
               color: Colors.white,
               image: DecorationImage(
-                image: AssetImage("assets/images/image1.jpeg"),
+                image: AssetImage("assets/images/img_login_ui.png"),
                 fit: BoxFit.fill,
               ),
             ),
@@ -47,25 +47,25 @@ class LoginScreen extends StatelessWidget {
                       "Login",
                       style: TextStyle(
                         fontSize: height * 0.03,
-                        color: Colors.white,
+                        color: Colors.black,
                         fontWeight: FontWeight.w700,
                       ),
                     ),
                     SizedBox(
-                      height: height * 0.005,
+                      height: height * 0.050,
                     ),
                     // Email text field
                     TextField(
                       cursorColor: Colors.white,
                       style: const TextStyle(
-                        fontSize: 16,
-                        color: Colors.white,
+                        fontSize: 20,
+                        color: Colors.black,
                       ),
                       decoration: InputDecoration(
                         contentPadding: const EdgeInsets.symmetric(horizontal: 0),
                         labelText: " Enter Email ",
                         labelStyle: TextStyle(
-                          fontSize: 12,
+                          fontSize: 18,
                           color: Colors.white.withOpacity(0.5),
                         ),
                         border: OutlineInputBorder(
@@ -75,11 +75,11 @@ class LoginScreen extends StatelessWidget {
                           ),
                         ),
                         focusedBorder: const OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.white, width: 1.0),
+                          borderSide: BorderSide(color: Colors.black, width: 1.0),
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                            color: Colors.white.withOpacity(0.3),
+                            color: Colors.white.withOpacity(0.9),
                             width: 1.0,
                           ),
                         ),
@@ -95,14 +95,14 @@ class LoginScreen extends StatelessWidget {
                       obscureText: true,
                       cursorColor: Colors.white,
                       style: const TextStyle(
-                        fontSize: 16,
-                        color: Colors.white,
+                        fontSize: 20,
+                        color: Colors.black
                       ),
                       decoration: InputDecoration(
                         contentPadding: const EdgeInsets.symmetric(horizontal: 0),
                         labelText: " Enter Password ",
                         labelStyle: TextStyle(
-                          fontSize: 12,
+                          fontSize: 18,
                           color: Colors.white.withOpacity(0.5),
                         ),
                         border: OutlineInputBorder(
@@ -112,11 +112,11 @@ class LoginScreen extends StatelessWidget {
                           ),
                         ),
                         focusedBorder: const OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.white, width: 1.0),
+                          borderSide: BorderSide(color: Colors.black, width: 1.0),
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                            color: Colors.white.withOpacity(0.3),
+                            color: Colors.white.withOpacity(0.9),
                             width: 1.0,
                           ),
                         ),
