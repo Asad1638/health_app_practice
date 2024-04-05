@@ -20,9 +20,9 @@ class HomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Stack(
           children: [
-            // Background image covering the entire screen
+          //  Background image covering the entire screen
             Container(
-              height: MediaQuery.of(context).size.height *1.3, // Increase height here
+              height: MediaQuery.of(context).size.height *1.45, // Increase height here
               width: MediaQuery.of(context).size.width,
               child: Image.asset(
                 "assets/images/login.jpeg",
@@ -32,8 +32,8 @@ class HomeScreen extends StatelessWidget {
             BackdropFilter(
               filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
               child: Container(
-                //color: Colors.black.withOpacity(0.1),
-                height: MediaQuery.of(context).size.height * 1.3, // Adjust the height accordingly
+              //  color: Colors.black.withOpacity(0.2 ),
+                height: MediaQuery.of(context).size.height * 1.45, // Adjust the height accordingly
                 width: MediaQuery.of(context).size.width,
               ),
             ),
@@ -49,8 +49,8 @@ class HomeScreen extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
                       image: const DecorationImage(
-                        image: AssetImage("assets/images/home_screen.jpeg"),
-                        fit: BoxFit.fill,
+                        image: AssetImage("assets/images/home_s.jpeg"),
+                        fit: BoxFit.cover,
                       ),
                     ),
                     height: MediaQuery.of(context).size.height * 0.3,

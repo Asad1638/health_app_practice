@@ -39,6 +39,10 @@ dependencies:
   cached_network_image: ^3.3.1
   intl: ^0.19.0
   fl_chart: ^0.66.2
+  cloud_firestore: ^4.15.10
+  bloc: ^8.1.4
+  firebase_core: ^2.27.2
+ 
   
   
 
